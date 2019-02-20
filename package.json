@@ -1,0 +1,29 @@
+{
+ "name": "refactoring",
+ "version": "1.0.0",
+ "description": "",
+ "main": "index.js",
+ "scripts": {
+  "test": "tsc && ava src/tests/**/*.ts",
+  "test:watch": "tsc && ava src/tests/**/*.ts --watch"
+ },
+ "author": "",
+ "license": "ISC",
+ "devDependencies": {
+  "ava": "^1.2.1",
+  "sinon": "^7.2.3"
+ },
+ "ava": {
+  "compileEnhancements": false,
+  "extensions": [
+   "ts"
+  ],
+  "require": [
+   "ts-node/register"
+  ]
+ },
+ "dependencies": {
+  "ts-node": "^8.0.2",
+  "typescript": "^3.3.3"
+ }
+}
