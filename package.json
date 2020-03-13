@@ -4,17 +4,16 @@
  "description": "",
  "main": "index.js",
  "scripts": {
-  "test": "tsc && ava src/tests/**/*.ts",
-  "test:watch": "tsc && ava src/tests/**/*.ts --watch"
+  "test": "ava src/tests/**/*.ts",
+  "test:watch": "ava src/tests/**/*.ts --watch"
  },
  "author": "",
  "license": "ISC",
  "devDependencies": {
-  "ava": "^1.2.1",
-  "sinon": "^7.2.3"
+  "ava": "^3.5.0",
+  "sinon": "^7.5.0"
  },
  "ava": {
-  "compileEnhancements": false,
   "extensions": [
    "ts"
   ],
@@ -23,7 +22,7 @@
   ]
  },
  "dependencies": {
-  "ts-node": "^8.0.2",
+  "ts-node": "^8.7.0",
   "typescript": "^3.3.3"
  }
 }
