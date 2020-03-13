@@ -4,8 +4,8 @@
  "description": "",
  "main": "index.js",
  "scripts": {
-  "test": "tsc && ava src/tests/**/*.ts",
-  "test:watch": "tsc && ava src/tests/**/*.ts --watch"
+  "test": "ava src/tests/**/*.ts",
+  "test:watch": "ava src/tests/**/*.ts --watch"
  },
  "author": "",
  "license": "ISC",
